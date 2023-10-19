@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/mnt/nas/lxm/Project/ACLMX/./Psrc/flair_train.py", line 1, in <module>
+    import flair
+ModuleNotFoundError: No module named 'flair'
+Namespace(batch_size=8, epochs=100, gpu='cuda', input_folder='/mnt/nas/lxm/Project/ACLMX/data/ace2005', language='ace05', lr=0.01, output_folder='/mnt/nas/lxm/Project/ACLMX/data/ace2005/ace05_flair', seed=42, train_file='data/ace2005/ace05_train_context.json')
+2023-10-15 09:42:00,048 Reading data from /mnt/nas/lxm/Project/ACLMX/data/ace2005
+2023-10-15 09:42:00,048 Train: /mnt/nas/lxm/Project/ACLMX/data/ace2005/data/ace2005/ace05_train_context.json
+2023-10-15 09:42:00,048 Dev: /mnt/nas/lxm/Project/ACLMX/data/ace2005/ace05_dev.conll
+2023-10-15 09:42:00,048 Test: /mnt/nas/lxm/Project/ACLMX/data/ace2005/ace05_test.conll
+Traceback (most recent call last):
+  File "./Psrc/flair_train.py", line 115, in <module>
+    corpus: Corpus = ColumnCorpus(data_folder, columns, train_file=args.train_file,
+  File "/home/work/anaconda3/envs/ACLMX/lib/python3.8/site-packages/flair/datasets/sequence_labeling.py", line 417, in __init__
+    super(ColumnCorpus, self).__init__(
+  File "/home/work/anaconda3/envs/ACLMX/lib/python3.8/site-packages/flair/datasets/sequence_labeling.py", line 306, in __init__
+    [
+  File "/home/work/anaconda3/envs/ACLMX/lib/python3.8/site-packages/flair/datasets/sequence_labeling.py", line 307, in <listcomp>
+    ColumnDataset(
+  File "/home/work/anaconda3/envs/ACLMX/lib/python3.8/site-packages/flair/datasets/sequence_labeling.py", line 467, in __init__
+    assert path_to_column_file.exists()
+AssertionError

@@ -1,0 +1,7 @@
+assets/
+distiluse-base-multilingual-cased-v2/
+facebook/
+nltk_data/
+nltk-develop/
+xlm-roberta-large/
+torch-1.13.1+cu117-cp38-cp38-linux_x86_64.whl
